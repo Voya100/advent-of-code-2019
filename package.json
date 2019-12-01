@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "This is repository for my solutions for Advent of Code 2019 programming puzzles (https://adventofcode.com/2019/about).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voya100/advent-of-code-2019.git"
+  },
+  "engines": {
+    "node": ">=12.7.0"
+  },
+  "keywords": [
+    "nodejs",
+    "JavaScript"
+  ],
+  "author": "Voya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voya100/advent-of-code-2019/issues"
+  },
+  "homepage": "https://github.com/Voya100/advent-of-code-2019#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.14"
+  },
+  "dependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
