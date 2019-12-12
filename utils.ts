@@ -2,6 +2,13 @@ export function sum<T>(objects: T[], valueFunction: (object: T) => number) {
   return objects.reduce((sum, object) => sum + valueFunction(object), 0);
 }
 
+export function multiply<T>(
+  objects: T[],
+  valueFunction: (object: T) => number
+) {
+  return objects.reduce((result, object) => result * valueFunction(object), 1);
+}
+
 export function min<T>(objects: T[], valueFunction: (object: T) => number) {
   return objects.reduce(
     (minObject, object) =>
