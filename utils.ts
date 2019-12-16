@@ -1,5 +1,11 @@
-export function sum<T>(objects: T[], valueFunction: (object: T) => number) {
-  return objects.reduce((sum, object) => sum + valueFunction(object), 0);
+export function sum<T>(
+  objects: T[],
+  valueFunction: (object: T, index?: number) => number
+) {
+  return objects.reduce(
+    (sum, object, index) => sum + valueFunction(object, index),
+    0
+  );
 }
 
 export function multiply<T>(
